@@ -24,4 +24,5 @@ python -m http.server 4173 --directory dist
 - Production branch: `main`
 - Custom domain: `labs.parksangjae.com`
 
-GitHub 레포와 Pages를 연결하면 `main` 브랜치 푸시마다 자동 배포할 수 있습니다.
+Cloudflare Pages 프로젝트 `parksangjae-labs`가 이 GitHub 레포와 연결되어 있어
+`main` 브랜치에 푸시할 때마다 자동 배포됩니다.

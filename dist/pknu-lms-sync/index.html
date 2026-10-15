@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PKNU LMS Sync — Park Sangjae Labs</title>
+    <meta name="description" content="부경대학교 LMS 강의자료와 과제 첨부파일을 안전하게 동기화하는 비공식 Linux CLI.">
+    <link rel="canonical" href="https://labs.parksangjae.com/pknu-lms-sync/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header shell">
+      <a class="brand" href="/" aria-label="Park Sangjae Labs 홈">
+        <span class="brand-mark" aria-hidden="true"></span>
+        PARK SANGJAE / LABS
+      </a>
+      <a class="header-link" href="/">All projects ←</a>
+    </header>
+
+    <main class="shell">
+      <section class="detail-hero" aria-labelledby="project-title">
+        <div>
+          <p class="eyebrow">Project 001 · Open source</p>
+          <h1 id="project-title">PKNU<br>LMS Sync<span class="accent">.</span></h1>
+          <p class="hero-copy">강의자료를 찾으러 매번 LMS를 돌아다니지 않아도 되도록. 부경대학교 강의자료·과제 첨부파일을 과목별 폴더에 차분히 모읍니다.</p>
+          <div class="actions">
+            <a class="button" href="/github/pknu-lms-sync">GitHub에서 보기 ↗</a>
+            <a class="button secondary" href="#install">설치 방법</a>
+          </div>
+        </div>
+        <aside class="detail-aside" aria-label="프로젝트 정보">
+          <dl>
+            <div><dt>Status</dt><dd>Alpha · v0.1</dd></div>
+            <div><dt>Target</dt><dd>PKNU iLMS</dd></div>
+            <div><dt>Platform</dt><dd>Linux</dd></div>
+            <div><dt>License</dt><dd>MIT</dd></div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="detail-grid" aria-labelledby="why-title">
+        <div>
+          <p class="eyebrow">Why</p>
+          <h2 id="why-title">자료는 흩어져도,<br>내 폴더는 정돈되게.</h2>
+        </div>
+        <ul class="feature-list">
+          <li>로그인 후 현재 계정의 수강 과목을 찾아 원하는 과목만 선택합니다.</li>
+          <li>강의자료와 과제 게시판의 첨부파일을 원래 형식으로 보관합니다.</li>
+          <li>새 파일과 수정된 파일만 확인해 불필요한 다운로드를 줄입니다.</li>
+          <li>직접 수정한 파일은 덮어쓰지 않고, 이전 버전도 따로 남깁니다.</li>
+          <li>비밀번호는 Linux Secret Service에만 저장합니다.</li>
+          <li>systemd 사용자 타이머로 매시간 자동 확인할 수 있습니다.</li>
+        </ul>
+      </section>
+
+      <section class="detail-grid" id="install" aria-labelledby="install-title">
+        <div>
+          <p class="eyebrow">Install</p>
+          <h2 id="install-title">세 명령으로<br>시작합니다.</h2>
+        </div>
+        <div>
+          <div class="code-panel" aria-label="설치 명령">
+            <pre><span class="prompt">$</span> git clone https://github.com/sangjaepark0000/pknu-lms-sync.git
+<span class="prompt">$</span> cd pknu-lms-sync &amp;&amp; pipx install .
+<span class="prompt">$</span> pknu-lms-sync setup</pre>
+          </div>
+          <p class="support-copy">Python 3.11 이상과 Secret Service를 사용할 수 있는 Linux 환경이 필요합니다. 상세한 배포판별 준비 과정은 GitHub README에 있습니다.</p>
+        </div>
+      </section>
+
+      <section class="detail-grid" aria-labelledby="boundary-title">
+        <div>
+          <p class="eyebrow">Boundary</p>
+          <h2 id="boundary-title">다운로드만.<br>그 이상은 하지 않습니다.</h2>
+        </div>
+        <div>
+          <p>과제 제출, 댓글 작성, 게시글 삭제를 수행하지 않습니다. LMS에서 자료가 사라져도 로컬 파일을 자동 삭제하지 않으며, 부경대학교 이외의 LMS는 지원하지 않습니다.</p>
+          <div class="notice">
+            <strong>비공식 개인 프로젝트</strong>
+            이 도구는 부경대학교의 공식 서비스가 아닙니다. 본인에게 열람 권한이 있는 자료의 개인 학습용 백업에만 사용하고, 내려받은 강의자료를 재배포하지 마세요.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>© 2026 Park Sangjae</span>
+      <a href="https://parksangjae.com">Blog ↗</a>
+    </footer>
+  </body>
+</html>

@@ -3,7 +3,7 @@
 ## Identity
 
 Parksangjae Labs is a public workbench for things Park Sangjae wants to make,
-quickly assembled prototypes, and small tools that grow into something usable.
+quickly assembled prototypes, and small tools released for others.
 It records the movement from a question to an experiment, not only polished
 outcomes.
 
@@ -20,7 +20,7 @@ The guiding sentence is:
 Labs should link to those sources rather than duplicate long-form writing or
 maintenance documentation.
 
-## Public stages
+## Delivery stages
 
 ### Idea
 
@@ -34,16 +34,26 @@ The central interaction or technical path has been tried. Describe what works,
 what was deliberately omitted, the known limitations, and what should be tested
 next.
 
-### Usable
+### Released
 
-Someone other than the author can reasonably use it within a stated scope.
-Provide a clear entry point, quick start, boundaries, and links to the public
-source or documentation.
+The work has a public entry point and someone other than the author can
+reasonably try or use it within a stated scope. This does not mean the work is
+finished or stable. Provide a clear entry point, quick start, boundaries, and
+links to the public source or documentation.
+
+## Activity
+
+Activity is separate from delivery stage. Every entry uses one of these states.
+
+### Active
+
+The idea, prototype, or release is currently being explored, developed, or
+maintained.
 
 ### Paused
 
-The work is on hold but its question, approach, or result remains useful to
-share.
+The work is intentionally on hold but its question, approach, or result remains
+useful to share.
 
 ### Archived
 

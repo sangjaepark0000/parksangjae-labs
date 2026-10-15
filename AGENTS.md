@@ -3,15 +3,15 @@
 ## Purpose
 
 This repository powers `labs.parksangjae.com`, a public workbench for things
-Park Sangjae wants to make, quick prototypes, and tools that have become usable.
+Park Sangjae wants to make, quick prototypes, and tools released for others.
 It is not restricted to finished products or portfolio pieces.
 
 Read `docs/CONTEXT.md` before adding or substantially changing a project page.
 
 ## Content rules
 
-- Use one of these public stages: `idea`, `prototype`, `usable`, `paused`, or
-  `archived`.
+- Use one delivery stage: `idea`, `prototype`, or `released`.
+- Track activity separately as `active`, `paused`, or `archived`.
 - An idea may be published without code or a repository. Do not present an
   intended feature as implemented.
 - Keep detailed technical and installation documentation in the project's own

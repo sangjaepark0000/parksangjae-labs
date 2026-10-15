@@ -1,12 +1,15 @@
 # parksangjae labs
 
-`labs.parksangjae.com`에서 공개할 개인 프로젝트 소개 허브입니다.
+`labs.parksangjae.com`에서 아이디어, 프로토타입, 작은 도구를 공개하는
+개인 작업대입니다.
 
 ## 구조
 
 - `/` — 프로젝트 목록
 - `/pknu-lms-sync/` — PKNU LMS Sync 소개와 설치 안내
 - `dist/` — Cloudflare Pages 배포 디렉터리
+- `docs/CONTEXT.md` — Labs의 정체성, 프로젝트 단계, 공개 원칙
+- `AGENTS.md` — 사이트를 수정하고 배포할 때 지킬 작업 규칙
 
 ## 로컬 확인
 
